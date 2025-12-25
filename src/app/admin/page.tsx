@@ -379,7 +379,7 @@ export default function AdminPage() {
                                                 </p>
                                             </div>
                                         </div>
-                                        <div className="flex gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                                        <div className="flex gap-1 transition-opacity">
                                             <Button variant="ghost" size="sm" onClick={() => {
                                                 setEditingLessonId(lesson.id);
                                                 setLessonForm({
@@ -418,7 +418,7 @@ export default function AdminPage() {
                                                 </a>
                                             )}
                                         </div>
-                                        <div className="flex gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                                        <div className="flex gap-1 transition-opacity">
                                             <Button variant="ghost" size="sm" onClick={() => {
                                                 setEditingMosqueId(mosque.id);
                                                 setMosqueForm({
