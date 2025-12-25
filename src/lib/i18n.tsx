@@ -13,7 +13,7 @@ type I18nContextType = {
 const I18nContext = createContext<I18nContextType | undefined>(undefined);
 
 export function I18nProvider({ children }: { children: React.ReactNode }) {
-    const [lang, setLang] = useState<Language>('en');
+    const [lang, setLang] = useState<Language>('ar');
 
     useEffect(() => {
         const savedLang = localStorage.getItem('lang') as Language;
