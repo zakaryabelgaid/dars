@@ -48,7 +48,7 @@ export const FilterBar = ({ filters, setFilters }: FilterBarProps) => {
     ];
 
     return (
-        <div className="space-y-4 bg-white p-6 rounded-xl border border-primary/10 shadow-sm">
+        <div className="space-y-4 bg-white p-4 md:p-6 rounded-xl border border-primary/10 shadow-sm">
             <div className="relative">
                 <SearchIcon className={`absolute ${isRTL ? 'right-3' : 'left-3'} top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground`} />
                 <Input
