@@ -42,7 +42,7 @@ export default function Home() {
       setLessons(data || []);
     } catch (err: any) {
       console.error('Error fetching lessons:', err.message);
-      setError('Could not load lessons. Please make sure Supabase is configured.');
+      setError(err.message || 'Could not load lessons. Please make sure Supabase is configured.');
     } finally {
       setLoading(false);
     }
